@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+
+# Model weights: ~750 MB, downloaded from Hugging Face on first run.
+# GitHub rejects any file over 100 MB.
+model/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Processed dataset exports (~75 MB each), reproducible from WorldMedQA/V
+*.tsv
+*.csv
+data/
+
+# Hugging Face cache
+.cache/

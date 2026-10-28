@@ -1,0 +1,20 @@
+﻿# Keep binaries byte-exact; core.autocrlf=true can otherwise corrupt them.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.bin  binary
+*.pt   binary
+*.pth  binary
+*.ipynb binary
+
+# Normalise source to LF in the repository.
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.svg  text eol=lf
